@@ -1,0 +1,194 @@
+.firstSection {
+  background-image: url("/images/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 620px;
+  width: 100%;
+}
+.container h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #f6f6f6;
+}
+.container h2 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  width: 710px;
+}
+.container p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #f6f6f6;
+}
+.firstButton {
+  background-color: #fa4a0c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  box-shadow: 0px 10px 30px 0px #b7322733;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 16px 59px;
+}
+.secondButton {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  padding: 16px 59px;
+}
+.firstSection {
+  background-image: url("/images/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* чтобы текст был читаем поверх фона */
+.firstSection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.container h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #f6f6f6;
+  margin-bottom: 20px;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.container p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #f6f6f6;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.firstButton {
+  background-color: #fa4a0c;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 16px 59px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+}
+
+.secondButton {
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  padding: 16px 59px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover эффекты */
+.firstButton:hover {
+  background-color: #ff6b33;
+  transform: scale(1.05);
+}
+
+.secondButton:hover {
+  background-color: #ffffff;
+  color: #fa4a0c;
+  transform: scale(1.05);
+}
+
+/* стили картинки внизу */
+.firstSection img {
+  position: absolute;
+  bottom: -600px;
+  left: 46%;
+  transform: translateX(-50%);
+  width: 700px;
+  z-index: 2;
+}
+
+/* адаптив для телефона */
+@media (max-width: 768px) {
+  .container h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .container p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .firstButton,
+  .secondButton {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .firstSection img {
+    width: 400px;
+    bottom: -60px;
+  }
+}
