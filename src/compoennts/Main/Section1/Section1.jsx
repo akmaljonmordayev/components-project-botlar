@@ -13,7 +13,7 @@ function Section1() {
           <button className="secondButton">App store</button>
         </div>
       </div>
-      <img src="/public/images/Group 53.png" alt="" />
+      <img src="/images/Group 53.png" alt="" />
     </section>
   );
 }
