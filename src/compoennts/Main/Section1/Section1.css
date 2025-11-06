@@ -6,7 +6,7 @@
   height: 620px;
   width: 100%;
 }
-.container h3 {
+.foodapp {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -14,7 +14,7 @@
   text-align: center;
   color: #f6f6f6;
 }
-.container h2 {
+.why {
   font-weight: 700;
   font-size: 58px;
   line-height: 80px;
@@ -23,7 +23,7 @@
   color: #ffffff;
   width: 710px;
 }
-.container p {
+.info {
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
@@ -85,32 +85,6 @@
   max-width: 800px;
 }
 
-.container h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: 0.1px;
-  color: #f6f6f6;
-  margin-bottom: 20px;
-}
-
-.container h2 {
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 80px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-
-.container p {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 38px;
-  color: #f6f6f6;
-  margin-bottom: 40px;
-}
-
 .buttons {
   display: flex;
   justify-content: center;
@@ -156,7 +130,7 @@
 }
 
 /* стили картинки внизу */
-.firstSection img {
+.image1 {
   position: absolute;
   bottom: -600px;
   left: 46%;
@@ -167,12 +141,12 @@
 
 /* адаптив для телефона */
 @media (max-width: 768px) {
-  .container h2 {
+  .why {
     font-size: 36px;
     line-height: 50px;
   }
 
-  .container p {
+  .info {
     font-size: 18px;
   }
 
@@ -187,7 +161,7 @@
     max-width: 250px;
   }
 
-  .firstSection img {
+  .image1 {
     width: 400px;
     bottom: -60px;
   }
