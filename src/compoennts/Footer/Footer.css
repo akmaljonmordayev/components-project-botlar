@@ -1,0 +1,14 @@
+.sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 50px;
+}
+
+.iconca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
