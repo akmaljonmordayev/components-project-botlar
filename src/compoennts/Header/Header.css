@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+ul{
+    display: flex;
+    gap: 90px;
+    margin-top: 62px;
+
+;
+}
+ul li{
+        font-family: Montserrat;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #252B42;
+}
+li :hover{
+    color:  #FA4A0C;
+
+}
