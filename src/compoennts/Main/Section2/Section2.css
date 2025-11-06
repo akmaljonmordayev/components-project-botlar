@@ -1,22 +1,23 @@
-.section2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.section2-right h2{
-color: #FA4A0C;
-font-weight: 700;
-font-size: 24px;
-padding-bottom:50px ;
+.section2-right h2 {
+  color: #fa4a0c;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 50px;
 }
-.section2-right h1{
-font-weight: 700;
-font-size: 40px;
-width: 561px;
-padding-bottom:50px ;
-}.section2-right p{
-font-weight: 500;
-font-size: 24px;
-width: 467px;
-padding-bottom:50px ;
+.section2-right h1 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 561px;
+  padding-bottom: 50px;
+}
+.section2-right p {
+  font-weight: 500;
+  font-size: 24px;
+  width: 467px;
+  padding-bottom: 50px;
 }

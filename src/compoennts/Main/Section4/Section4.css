@@ -1,33 +1,33 @@
-.doda{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.doda {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.bolas p{
-width: 123px;
-height: 36px;
-opacity: 1;
-color: #FA4A0C;
-font-size: 20px;
+.bolas p {
+  width: 123px;
+  height: 36px;
+  opacity: 1;
+  color: #fa4a0c;
+  font-size: 20px;
 }
 
-.bolas h3{
-    width: 559px;
-height: 134px;
-opacity: 1;
-gap: 10px;
-padding-top: 10px;
-padding-bottom: 10px;
-font-size: 30px;
+.bolas h3 {
+  width: 559px;
+  height: 134px;
+  opacity: 1;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
 }
 
-.bolas h5{
-    width: 460px;
-height: 96px;
-opacity: 0.6;
-gap: 10px;
-padding-top: 10px;
-padding-bottom: 10px;
-font-size: 16px;
+.bolas h5 {
+  width: 460px;
+  height: 96px;
+  opacity: 0.6;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
 }
